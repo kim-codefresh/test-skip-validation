@@ -1,0 +1,16 @@
+{
+  "appName": "events",
+  "userGivenName": "events",
+  "destNamespace": "test-skip-validation",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/events/overlays/test-skip-validation",
+  "srcRepoURL": "https://github.com/kim-codefresh/test-skip-validation.git",
+  "srcTargetRevision": "",
+  "labels": {
+    "codefresh_io_entity": "component",
+    "codefresh_io_internal": "true"
+  },
+  "annotations": {
+    "argocd_argoproj_io_sync-wave": "0"
+  }
+}
