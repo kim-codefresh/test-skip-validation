@@ -37,7 +37,7 @@ data:
       defVersion: null
       ingressClassName: nginx
       ingressController: k8s.io/ingress-nginx
-      ingressHost: http://localhost:3017
+      ingressHost: https://kim-dev.pipeline-team.cf-cd.com
       ref: ""
       repo: https://github.com/kim-codefresh/test-skip-validation.git
       requiredCLIVersion: ^0.1.0
