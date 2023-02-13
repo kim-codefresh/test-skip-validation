@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: test-skip-validation
 resources:
 - ../../base
+- ingress.yaml
